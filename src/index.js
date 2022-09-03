@@ -55,12 +55,12 @@ function onPlay(e) {
   if (e.target.innerHTML === '') {
     if (counter % 2 === 0) {
       const markup = `<svg width="100" height="100" class="hero__svg">
-          <use href="/symbol-defs.a8b2e413.svg#icon-cross"></use>
+          <use href="./images/symbol-defs.svg#icon-cross"></use>
         </svg>`;
       e.target.innerHTML = markup;
     } else {
       const markup = `<svg width="100" height="100" class="hero__svg">
-          <use href="/symbol-defs.a8b2e413.svg#icon-nought"></use>
+          <use href="./images/symbol-defs.svg#icon-nought"></use>
         </svg>`;
       e.target.innerHTML = markup;
     }
