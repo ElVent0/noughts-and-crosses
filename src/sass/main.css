@@ -113,6 +113,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   fill: rgb(84, 84, 84);
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 1000px) {
+  .hero__svg {
+    width: 80px;
+    height: 80px;
+  }
 }
 .hero__svg--hidden {
   position: absolute;

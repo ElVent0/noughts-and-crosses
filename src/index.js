@@ -54,12 +54,12 @@ itemNineEl.addEventListener('click', onChangeResultNine);
 function onPlay(e) {
   if (e.target.innerHTML === '') {
     if (counter % 2 === 0) {
-      const markup = `<svg width="100" height="100" class="hero__svg">
+      const markup = `<svg class="hero__svg">
           <use href="/noughts-and-crosses/symbol-defs.80c78383.svg#icon-cross"></use>
         </svg>`;
       e.target.innerHTML = markup;
     } else {
-      const markup = `<svg width="100" height="100" class="hero__svg">
+      const markup = `<svg class="hero__svg">
           <use href="/noughts-and-crosses/symbol-defs.80c78383.svg#icon-nought"></use>
         </svg>`;
       e.target.innerHTML = markup;
