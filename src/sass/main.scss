@@ -12,6 +12,9 @@
 
 .hero__game {
   margin: 0 100px;
+  @media screen and (max-width: 1000px) {
+    margin: 0;
+  }
 }
 
 .hero__list {
@@ -23,6 +26,10 @@
   border-radius: 20px;
   position: relative;
   z-index: 1000;
+  @media screen and (max-width: 1000px) {
+    width: 300px;
+    height: 300px;
+  }
 }
 .hero__item {
   width: 33.3333%;
@@ -32,6 +39,7 @@
   transition: 0.3s;
   position: relative;
   background-color: rgb(249, 249, 249);
+
   &:hover {
     background-color: rgb(228, 228, 228);
   }
@@ -130,6 +138,9 @@
 
 .hero__result {
   margin-top: 150px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 }
 .hero__result--left {
 }
@@ -160,4 +171,7 @@
   margin-bottom: 20px;
   text-align: center;
   color: rgb(84, 84, 84);
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 }

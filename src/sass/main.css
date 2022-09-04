@@ -13,6 +13,11 @@
 .hero__game {
   margin: 0 100px;
 }
+@media screen and (max-width: 1000px) {
+  .hero__game {
+    margin: 0;
+  }
+}
 
 .hero__list {
   display: flex;
@@ -22,6 +27,12 @@
   border-radius: 20px;
   position: relative;
   z-index: 1000;
+}
+@media screen and (max-width: 1000px) {
+  .hero__list {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .hero__item {
@@ -126,6 +137,11 @@
 .hero__result {
   margin-top: 150px;
 }
+@media screen and (max-width: 1000px) {
+  .hero__result {
+    display: none;
+  }
+}
 
 .hero__player {
   font-size: 18px;
@@ -155,4 +171,9 @@
   margin-bottom: 20px;
   text-align: center;
   color: rgb(84, 84, 84);
+}
+@media screen and (max-width: 1000px) {
+  .hero__queue {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
