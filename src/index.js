@@ -4,11 +4,8 @@ let counter = 1;
 let counterGlobal = 1;
 let victoriesCounterFirst = 0;
 let victoriesCounterSecond = 0;
-
 let ratingListFirst = {};
-
 let ratingListSecond = {};
-
 const queueEl = document.querySelector('.hero__queue');
 const numberFirstEl = document.querySelector('.hero__number--one');
 const numberSecondEl = document.querySelector('.hero__number--two');
